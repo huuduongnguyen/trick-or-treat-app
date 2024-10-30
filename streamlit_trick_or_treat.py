@@ -10,15 +10,15 @@ treats = [
     "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzk1OG5odXM2bDYzYXUwYTRveTJ0a25mYWF1Z3VjeXE5aDZvbTQ1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OW7jUTtOeQY0g8YBJF/giphy.gif"  # candy GIF
 ]
 # App title
-st.title("🎃🎃🎃 Trick or Treat! Hohohoho 🎃🎃🎃")
+st.title("🎃🎃🎃 Trick or Treat! ")
 
 # Display message and image based on selection
 if st.button("👻 Trick"):
     image_url = random.choice(tricks)
-    st.write("Boo! You got a trick!👻")
+    st.write("Boo! You got a trick!👻 Happy Halloween")
     st.image(image_url, width=300)
 
 elif st.button("🍬 Treat"):
     image_url = random.choice(treats)
-    st.write("Yay! You got a treat!🍬")
+    st.write("Yay! You got a treat!🍬 Happy Halloween")
     st.image(image_url, width=300)
