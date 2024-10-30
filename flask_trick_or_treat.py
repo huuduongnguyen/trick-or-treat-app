@@ -3,15 +3,12 @@ import random
 
 # Define some "tricks" and "treats" with links to images or GIFs
 tricks = [
-    "https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif",  # spooky ghost
-    "https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif",  # jump scare
+    "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGcwcnYzOHg2bGpub2kweDZmMXNoNHl2YTUwbTVobWNrNnpmdWt3OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DPvq36SD00MihIDc00/giphy.gif"
 ]
 
 treats = [
-    "https://media.giphy.com/media/3oz8xIsloV7zOmt81G/giphy.gif",  # cute pumpkin
-    "https://media.giphy.com/media/xT9IgIc0lryrxvqVGM/giphy.gif",  # candy GIF
+    "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzk1OG5odXM2bDYzYXUwYTRveTJ0a25mYWF1Z3VjeXE5aDZvbTQ1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OW7jUTtOeQY0g8YBJF/giphy.gif"  # candy GIF
 ]
-
 # App title
 st.title("🎃 Trick or Treat! Choose wisely!")
 
